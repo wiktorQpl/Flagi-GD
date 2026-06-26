@@ -1,17 +1,17 @@
 {
-	"geode": "$GEODE_VERSION",
-	"gd": {
-		"win": "2.2081",
-		"android": "2.2081",
-		"mac": "2.2081",
-		"ios": "2.2081"
-	},
-	"id": "$MOD_ID",
-	"name": "$MOD_NAME",
-	"version": "$MOD_VERSION",
-	"developer": "$MOD_DEVELOPER",
-	"description": "$MOD_DESCRIPTION",
-	"dependencies": {
-		"geode.node-ids": ">=v1.23.3"
-	}
+    "geode": "3.0.0-beta.1",
+    "id": "twojnick.mod_flagi",
+    "version": "1.0.0",
+    "name": "Flag Colors",
+    "developer": "TwojNick",
+    "description": "Zmienia kolory skina na barwy flag!",
+    "settings": {
+        "selected-flag": {
+            "name": "Wybierz Flage",
+            "description": "Wybierz flage, ktorej kolory chcesz nosic.",
+            "type": "string",
+            "default": "Wylaczone",
+            "one-of": ["Wylaczone", "Polska", "Ukraina", "Wlochy", "LGBT"]
+        }
+    }
 }
