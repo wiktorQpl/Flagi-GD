@@ -23,7 +23,7 @@ class $modify(MyPlayer, SimplePlayer) {
         if (selectedFlag != "Wylaczone") {
             FlagColor colors = getFlagColors(selectedFlag);
             this->setColor(colors.color1);
-            this->setSecondColor(colors.colors.color2);
+            this->setSecondColor(colors.color2);
         }
     }
 };
