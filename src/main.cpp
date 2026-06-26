@@ -10,20 +10,20 @@ class $modify(MyPlayer, SimplePlayer) {
         auto selectedFlag = Mod::get()->getSettingValue<std::string>("selected-flag");
 
         if (selectedFlag == "Polska") {
-            this->setColor({255, 255, 255});
-            this->setSecondColor({214, 40, 40});
+            this->setPrimaryColor({255, 255, 255});
+            this->setSecondaryColor({214, 40, 40});
         } 
         else if (selectedFlag == "Ukraina") {
-            this->setColor({0, 91, 187});
-            this->setSecondColor({255, 213, 0});
+            this->setPrimaryColor({0, 91, 187});
+            this->setSecondaryColor({255, 213, 0});
         } 
         else if (selectedFlag == "Wlochy") {
-            this->setColor({0, 146, 70});
-            this->setSecondColor({206, 43, 55});
+            this->setPrimaryColor({0, 146, 70});
+            this->setSecondaryColor({206, 43, 55});
         } 
         else if (selectedFlag == "LGBT") {
-            this->setColor({255, 0, 0});
-            this->setSecondColor({0, 0, 255});
+            this->setPrimaryColor({255, 0, 0});
+            this->setSecondaryColor({0, 0, 255});
         }
     }
 };
